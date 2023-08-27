@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 2rem;
+}
+
+.header {
+	font-size: 2rem;
+	height: 2rem;
+}
+
+button, .button_1 {
+	background: transparent;
+	box-shadow: none;
+	border: 0;
+	padding: 1rem 0.5rem;
+	font-size: 16px;
+	margin: 2rem;
+	border-radius: 8px;
+}
+
+button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+button:first-child {
+	background: #33f2e9;
+	color:  #fff;
+}
+button:nth-child(2) {
+	background: #6babe8;
+	color:  #fff;
+}
+button:nth-child(3) {
+	background: #6be39f;
+}
+button:nth-child(4) {
+	background: #f2747d;
+}
+button:nth-child(5) {
+	background: #d7c7fc;
+	color:  #fff;
+}
+button:nth-child(6) {
+	background: #cee7ed;
+}
+button:nth-child(7) {
+	background: #f75239;
+	color:  #fff;
+}
+button:nth-child(8) {
+	background: #6b3e11;
+	color: #fff;
+}
+button:nth-child(9) {
+	background: #214a59;
+	color:  #fff;
+}
+button:nth-child(10) {
+	background: #124ac4;
+	color:  #fff;
+}
+button:nth-child(11) {
+	background: #6c4c8c;
+	color:  #fff;
+}
+button:nth-child(12) {
+	background: #0d917b;
+	color:  #fff;
+}
+
+.result_block {
+	padding: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 600;
+	border: 1px solid;
+}
+
+.result_block p {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
